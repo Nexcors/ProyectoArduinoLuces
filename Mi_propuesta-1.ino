@@ -35,11 +35,6 @@ void setup()
 
 void loop()
 {
-    Controlador();
-}
-
-void Controlador()
-{
     /*
     lee si se ejucto el btn power y en base a ello se plantea lo siguiente:
     se guardar el estaod del btn y se pregunta si esta encendido "high" => 1
@@ -64,6 +59,7 @@ void Controlador()
         Errorprint();
     }
 }
+
 void Encendido_controller()
 {
     // Si "valor" es Cero gire a la DERECHA
